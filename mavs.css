@@ -1,0 +1,133 @@
+html{
+           scroll-behavior: smooth;
+        }
+        body{
+            margin: 0px;
+           
+        }
+        nav{
+            background-color: black;
+            padding: 10px 15px;
+            box-shadow: 2px 2px 3px black;
+            position: sticky;
+            top: 0px;
+        }
+        .title{
+            color: white;
+            display: inline-block;
+            position: relative;
+            top: -13px;
+            left: 1px;
+            text-shadow: 2px 2px 3px black;
+            text-decoration: none;
+            font-size: 20px
+        }
+        .Logo{
+        position: relative;
+        top: 5px;
+        }
+        
+        .Head{
+            float: right;
+            position: relative;
+            top: 11px;
+        }
+        .Container button{
+            background-color: gold;
+            border: none;
+            width: 100px;
+            height: 40px;
+            font-weight: bold;
+        } 
+       .Container .Drop{
+           box-shadow: 2px 2px 3px black;
+           width: 100px;
+           position: absolute;
+           display: none;
+       }
+       .Container a{
+           text-decoration: none;
+           color: black;
+           display: block;
+           padding: 15px 15px;
+           background-color: gray;
+       }
+       .Container:hover .Drop{
+           display: block;
+       }
+       .a:hover{
+           background-color: skyblue;
+       }
+       .b:hover{
+           background-color: tomato;
+       }
+       .c:hover{
+           background-color: lightgreen;
+       }
+       .d:hover{
+           background-color: yellow;
+       }
+       .e:hover{
+           background-color: #a580ff;
+       }
+       
+       #Profile{
+           background-color: white;
+           margin: 10px 10px 10px 10px;
+           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           height: 700px;
+           
+       }#School{
+           background-color: white;
+           margin: 30px 10px;
+           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           height: 700px;
+       }#Address{
+           background-color: white;
+           margin: 30px 10px;
+           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           height: 700px;
+       }#Dream{
+           background-color: white;
+           margin: 30px 10px;
+           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           height: 700px;
+       }#SocMed{
+           background-color: white;
+           margin: 30px 10px;
+           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           height: 700px;
+       }
+       h1{
+           text-align: center;
+           font-size: 15px;
+           background-color: gold;
+           padding: 15px;
+        }
+        .Myself{
+            color: white;
+            width: 200px;
+            display: inline-block;
+            position: flex;
+            margin: 0px 15px 0px 15px;
+            box-shadow: 2px 2px 3px blue, -2px -2px 3px red;
+            
+            
+        }
+        h6{
+        position: flex;
+        top: 5px;
+        margin: 15px 15px;
+        font-size: 27px;
+        }
+        .Drem{
+            font-size: 30px;
+        }
+        .Mavs{
+            text-decoration: none;
+            border: none;
+            background-color: gold;
+            padding: 15px 15px;
+            color: black;
+            width: 100px;
+        }
