@@ -3,11 +3,12 @@ html{
         }
         body{
             margin: 0px;
+            background-color: black;
            
         }
         nav{
             background-color: black;
-            padding: 20px 15px;
+            padding: 15px 15px;
             box-shadow: 2px 2px 3px black;
             position: sticky;
             top: 0px;
@@ -22,7 +23,12 @@ html{
             text-decoration: none;
             font-size: 20px
         }
+        span{
+            color: #8ef3e9;
+        }
         .Logo{
+        border: 1px solid white;
+        border-radius: 50%;
         position: relative;
         top: 5px;
         }
@@ -30,10 +36,10 @@ html{
         .Head{
             float: right;
             position: relative;
-            top: 9px;
+            top: 11px;
         }
         .Container button{
-            background-color: gold;
+            background-color:#8ef3e9 ;
             border: none;
             width: 100px;
             height: 40px;
@@ -72,36 +78,36 @@ html{
        }
        
        #Profile{
-           background-color: white;
+           background-color: #0e005a;
            margin: 10px 10px 10px 10px;
-           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           box-shadow: 2px 2px 10px,-2px -2px 10px white;
            height: 700px;
            
        }#School{
-           background-color: white;
+           background-color: #0e005a;
            margin: 30px 10px;
-           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           box-shadow: 2px 2px 10px,-2px -2px 10px white;
            height: 700px;
        }#Address{
-           background-color: white;
+           background-color: #0e005a;
            margin: 30px 10px;
-           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           box-shadow: 2px 2px 10px,-2px -2px 10px white;
            height: 700px;
        }#Dream{
-           background-color: white;
+           background-color: #0e005a;
            margin: 30px 10px;
-           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           box-shadow: 2px 2px 10px,-2px -2px 10px white;
            height: 700px;
        }#SocMed{
-           background-color: white;
+           background-color: #0e005a;
            margin: 30px 10px;
-           box-shadow: 5px 5px 10px,-5px -5px 10px black;
+           box-shadow: 2px 2px 10px,-2px -2px 10px white;
            height: 700px;
        }
        h1{
            text-align: center;
            font-size: 15px;
-           background-color: gold;
+           background-color: #8ef3e9;
            padding: 15px;
         }
         .Myself{
@@ -110,22 +116,33 @@ html{
             display: inline-block;
             position: flex;
             margin: 0px 15px 0px 15px;
-            box-shadow: 2px 2px 3px blue, -2px -2px 3px red;
+            box-shadow: 0px 4px 3px red, 4px 0px 3px green, 
+            -4px 0px 3px blue, 0px -4px 3px yellow;
             
-            
+        }
+        h2{
+          color: white;
+        }
+        h3{
+            color: white;
         }
         h6{
-        position: flex;
-        top: 5px;
-        margin: 15px 15px;
-        font-size: 27px;
+            color: white;
+        }
+        h6{
+            position: flex;
+            top: 5px;
+            margin: 15px 15px;
+            font-size: 27px;
         }
         .Drem{
-            font-size: 30px;
+            font-size: 22px;
         }
         .Mavs{
             text-decoration: none;
             border: none;
+            text-weight: bold;
+            transform: capitalized;
             background-color: gold;
             padding: 15px 15px;
             color: black;
